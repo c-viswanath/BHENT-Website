@@ -1,0 +1,132 @@
+
+nav{
+    background-color: #E5F9DB;
+    font-size: 20px;
+    font-weight: 500;
+}
+ul.navbar-nav.sm-icons{
+    flex-direction: row;
+}
+.sm-icons .nav-link{
+    margin-right: .5rem;
+}
+.navbar-brand{
+    font-family: 'Paytone One',sans-serif;
+}
+#intro{
+    background-image:url(img/1.jpg);
+    background-size: 1400px;
+    position: relative;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.introTitle{
+    font-family: 'Paytone One',sans-serif;
+    font-size:4rem;
+    text-align: center;
+}
+
+
+.introDescription{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#gallerySmall{
+    padding: 0%;
+    height: 90vh;
+    text-align: center;
+}
+.carousel-inner .carousel-item{
+    height:90vh; /* add this */
+}
+#carousel_img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-inner .carousel-caption{
+    background-color:rgba(0, 0, 0, 0.205);
+}
+
+
+#volunteers{
+    background-color: #bdbdbd;
+    height: 60vh;
+    padding: 2px;
+    text-align: center;
+}
+.card_container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+
+}
+.volunteersText{
+    padding: 4px;
+    margin: 5px;
+    font-family: 'Paytone One',sans-serif;
+    font-size:4rem;
+    text-align: center;
+}
+.card{
+    width: 18rem;
+    background-color: #dd6d6d
+}
+
+
+
+
+#contact{
+    background-color: #bdbdbd;
+    height: 350px;
+    padding: 2px;
+    text-align: center;
+}
+.container-1,.container-2{
+    width:50%;
+    background-color: #535353;
+    margin: 15px;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.123);
+    backdrop-filter: blur(10px) saturate(160%) contrast(45%) brightness(140%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(45%) brightness(140%);
+  }
+
+/* Media queries for the top title */
+@media only screen and (min-width:1000px) {
+    .introTitle{
+        font-size: 8rem;
+    }
+}  
+@media only screen and (min-width:880px) {
+    .introTitle{
+        font-size: 5rem;
+    }
+}  
+@media only screen and (max-width:480px) {
+    .introTitle{
+        font-size: 3rem;
+    }
+}  
+@media only screen and (max-width:380px) {
+    .introTitle{
+        font-size: 2rem;
+    }
+}  
+
+
+
+
+
+
+
+
