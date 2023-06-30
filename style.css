@@ -13,16 +13,33 @@ ul.navbar-nav.sm-icons{
 .navbar-brand{
     font-family: 'Paytone One',sans-serif;
 }
+
+.logo{
+    width: 55px;
+}
+
+
+
 #intro{
-    background-image:url(img/1.jpg);
+    background-image:url(BHENT_RESOURCES/BANNER.jpg);
     background-size: 1400px;
     position: relative;
     height: 100vh;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(87, 87, 87), 0 0 0.2em rgb(138, 138, 255);
+
+}
+.container_for_titlenddesc{
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(110%);
+    -webkit-backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(110%);
 
 }
 .introTitle{
@@ -32,10 +49,15 @@ ul.navbar-nav.sm-icons{
 }
 
 
+
 .introDescription{
+    padding: 1%;
     font-family: sans-serif;
     text-align: center;
+    font-size: 30px;
+
 }
+
 
 #gallerySmall{
     padding: 0%;
