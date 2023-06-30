@@ -36,7 +36,7 @@ ul.navbar-nav.sm-icons{
 
 }
 .container_for_titlenddesc{
-    border-radius: 100px;
+    border-radius: 60px;
     background-color: rgba(0, 0, 0, 0);
     backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(110%);
     -webkit-backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(110%);
@@ -128,20 +128,44 @@ ul.navbar-nav.sm-icons{
     .introTitle{
         font-size: 8rem;
     }
+    .introDescription{
+        font-size: 16px;
+    }
+    .container_for_titlenddesc{
+        border-radius: 50px;
+    }
 }  
 @media only screen and (min-width:880px) {
     .introTitle{
         font-size: 5rem;
+    }
+    .introDescription{
+        font-size: 20px;
+    }
+    .container_for_titlenddesc{
+        border-radius: 50px;
     }
 }  
 @media only screen and (max-width:480px) {
     .introTitle{
         font-size: 3rem;
     }
+    .introDescription{
+        font-size: 20px;
+    }
+    .container_for_titlenddesc{
+        border-radius: 40px;
+    }
 }  
 @media only screen and (max-width:380px) {
     .introTitle{
         font-size: 2rem;
+    }
+    .introDescription{
+        font-size: 16px;
+    }
+    .container_for_titlenddesc{
+        border-radius: 20px;
     }
 }  
 
