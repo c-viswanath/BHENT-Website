@@ -68,9 +68,9 @@
         <div class="container_for_titlenddesc">
             <div class="introTitle ">Who are we?</div>
             <div class="introDescription"> Empowering underprivileged children through education.<br>
-                Supporting a girl's education from 9th to 11th grade.<br>
+                Supporting a girl's education since 9th class<br>
                 Providing free higher education, clothing, and promoting environmental sustainability.<br>
-                Join us in creating a brighter future for all.</div>
+                Join us for a better tomorrow.</div>
         </div>
     </div>
 
@@ -195,10 +195,20 @@
 
 
     <!-- Contact Us -->
-    <div id="contact" class="container-fluid d-flex flex-row justify-content-between">
-        <div class="container-1 d-flex flex-column justify-content-around">Email,Phno,Name</div>
-        <div class="container-2 d-flex flex-column justify-content-around">Message Box and Send Message button</div>
-    </div>
+    <form id="contactForm" action="#">
+      <h1 class="text-center display-3 font-weight-bold" id="contactUsText">Contact us</h3>
+      <div id="contact" class="container-fluid d-flex flex-row justify-content-between">
+          <div class="container-1 d-flex flex-column justify-content-around ">
+            <input id="nameInput" type="text" placeholder="Enter your Name">
+            <input id="emailInput" type="email" placeholder="Enter your Email">
+            <input id="phoneInput" type="text" placeholder="Enter your Phone Number">
+          </div>
+          <div class="container-2 d-flex flex-column justify-content-around">
+            <textarea id="messageBox" rows="10" cols="50" placeholder="Enter your message"></textarea>
+            <button id="submitButton" type="submit">Submit</button>
+          </div>
+      </div>
+    </form>
 
 
     <script src="https://kit.fontawesome.com/1127668b3a.js" crossorigin="anonymous"></script>

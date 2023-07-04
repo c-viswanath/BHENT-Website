@@ -36,11 +36,14 @@ ul.navbar-nav.sm-icons{
 
 }
 .container_for_titlenddesc{
+    border: 5px solid white;
     border-radius: 60px;
     background-color: rgba(0, 0, 0, 0);
     backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(110%);
     -webkit-backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(110%);
-
+    -webkit-box-shadow: 1px 1px 46px -4px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 1px 46px -4px rgba(255,255,255,1);
+    box-shadow: 1px 1px 46px -4px rgba(255,255,255,1);
 }
 .introTitle{
     font-family: 'Paytone One',sans-serif;
@@ -102,17 +105,89 @@ ul.navbar-nav.sm-icons{
     background-color: #dd6d6d
 }
 
+#contactForm{
+    background-image: url(BHENT_RESOURCES/BLURREDBG.jpg);
+    backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(110%);
+    -webkit-backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(110%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #contact{
-    background-color: #bdbdbd;
     height: 350px;
     padding: 2px;
     text-align: center;
 }
+
+
 .container-1,.container-2{
     width:50%;
-    background-color: #535353;
     margin: 15px;
+}
+
+#contactUsText{
+    font-weight: 400;
+    padding-top: 10px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(181, 181, 181), 0 0 0.2em rgb(210, 210, 255);
+}
+
+#submitButton{
+    background: none;
+    padding:1% 2rem ;
+    border-radius: 25px;
+    border:2px solid black;
+    font-weight: 650;
+    margin-top :10px;
+    font-size:15px
+}
+
+#submitButton:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 50px rgb(43, 0, 71);
+    
+}
+
+#nameInput,#emailInput,#phoneInput{
+    background: none;
+    border: none;
+    color: black;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#messageBox{
+    background: none;
+    border: none;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#messageBox:focus{
+    outline: none;
+    transition: background-color 0.5s;
+    background-color: #ffb6b63f;
+}
+
+#messageBox::placeholder{
+    color: black;
+}
+
+#nameInput::placeholder,#emailInput::placeholder,#phoneInput::placeholder{
+    color: black;
+}
+
+#nameInput:focus,#emailInput:focus,#phoneInput:focus{
+    outline: none;
+    transition: background-color 0.5s;
+    background-color: #ffb6b63f;
 }
 
 .navbar {
