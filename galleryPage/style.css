@@ -1,0 +1,78 @@
+body{
+    background-color: #ebebebfa;
+}
+img{
+    opacity: .8;
+    border: 5px solid rgba(0, 0, 0, 0.28);
+    border-radius: 5%;
+    width: 30%;
+    height:320px;
+    margin: 1%;
+    transition: opacity 200ms ease-in 10ms;
+    
+}
+img:hover{
+    opacity: 1;
+}
+nav{
+    width: 100%;
+    color: rgb(35, 35, 35);
+    text-transform: uppercase;
+    border-bottom: 2px solid #00000032;
+    font-family: 'Poppins',sans-serif;
+    font-weight:700;
+    font-size: 200%;
+    padding: 5px 0px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    transition: color 200ms ease-in 10ms;
+}
+nav:hover{
+    color: rgb(12, 51, 109);
+    cursor: pointer;
+}
+
+#goBack{
+    padding: 1%;
+    font-family: 'Poppins',sans-serif;
+    font-weight:700;
+    font-size: 25px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+p{
+    margin-left: 33.33333333333333333%;
+    padding-top: 10px;
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    color: rgb(184, 184, 184);
+    width: 30%;
+    text-align: center;
+
+    border-top:2px solid #f1f1f132;
+}
+a{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    transition: color 200ms ease-in 10ms;
+}
+a:hover{
+    color: rgb(73, 27, 27);
+    cursor: pointer;
+}
+body::-webkit-scrollbar {
+    width: 12px;         
+}
+body::-webkit-scrollbar-track {
+    background: rgba(29, 29, 29, 0.072);   
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(164, 164, 164, 0.632);   
+    border-radius: 20px;   
+    border: 3px solid rgb(0, 0, 0);  
+}
